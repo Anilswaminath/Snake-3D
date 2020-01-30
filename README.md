@@ -1,4 +1,4 @@
-# Snake-3D
+# Snake-3D 
 There are no external tools or assets used in this project.
 Link :- https://drive.google.com/open?id=1yGNDpRJUqMYJ1i1a4Tqgou-V3ZhR3Kwx
 
@@ -12,7 +12,6 @@ In this game there are 2 types of food(red,blue), which has  values of 15 and 20
 .In Game scene Player can see the current score,highest Score and as well as food type streaks.In Game over Screen player can see the current Score as well as the highest score. Also retry button and main menu button is added to navigate to the respective scenes.
 
 Solution
-
 1)Using unityengine Ui button is added for the Mainscene. And added click trigger events through Script;
 2)Direction set up is based on vector3.forward,backward,left and vector3.right,booleans has been added to check the snake movement direction.so the snake will not come backwards of current direction
 3)added a timer in the update Method of playerController to move the character in unit length(pixel by pixel)
